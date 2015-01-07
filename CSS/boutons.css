@@ -1,0 +1,67 @@
+.containerBoutons{
+	width: 280px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 8px;
+}
+
+a.button{
+/*	background:url(../../ProjetS3/Images/Icones/button.gif); */
+	display:block;
+	color:#555555;
+	font-weight:bold;
+	height:30px;
+	line-height:29px;
+	/*margin-bottom:14px;*/
+	text-decoration:none;
+	background-color: white;
+	text-align: center;
+	border-radius: 25px;
+}
+
+a:hover.button{
+	color:#0066CC;
+}
+
+/* Classes */
+.add{
+	background:url(../../ProjetS3/Images/Icones/add.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.alert{
+	background:url(../../ProjetS3/Images/Icones/alert.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.delete{
+	background:url(../../ProjetS3/Images/Icones/delete.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.download{
+	background:url(../../ProjetS3/Images/Icones/download.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.info{
+	background:url(../../ProjetS3/Images/Icones/info.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.message{
+	background:url(../../ProjetS3/Images/Icones/msg.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.user{
+	background:url(../../ProjetS3/Images/Icones/user.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+.search{
+	background:url(../../ProjetS3/Images/Icones/lens.gif) no-repeat 10px 8px;
+	text-indent:30px;
+	display:block;
+}
+

@@ -1,0 +1,29 @@
+/*Fichier CSS du footer*/
+/*Contenu récurent*/
+
+.contact{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.contact a{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 100px;
+    margin: 0.1em;
+    padding: 0.7em 1.1em;
+    outline: none;
+    border: 1px solid #09a3e2;
+    border-radius: 15px;
+    color: #536583;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.contact a:hover{
+    border-color: #536583;
+    color: rgba(0,0,3);
+}

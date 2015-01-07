@@ -1,0 +1,168 @@
+/* Formulaire connexion et inscription */
+
+
+.formInscriptionConnexion{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.formInscriptionConnexion fieldset{
+	/*width: 50%;*/
+	width: 90%;
+	/*text-align: left;*/ text-align: center;
+	/*border-color: #eee;*/
+	border-color: #eee;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid white;
+
+}
+
+.formInscriptionConnexion fieldset input[type = checkbox]{
+	text-align: left;
+}
+
+.formInscriptionConnexion legend{
+	color:#eee;
+	text-align: center;
+	text-transform: uppercase;
+}
+.formInscriptionConnexion label{
+	color:white;
+}
+
+.formInscriptionConnexion h2{
+	color:#eee;
+	font-size: 18px;
+	text-decoration: underline;
+}
+
+.formInscriptionConnexion input[type=text], .formInscriptionConnexion input[type=password]{
+	margin: 5px;
+	width: 130px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	color: #3498db;
+}
+
+.formInscriptionConnexion input[type=radio]{
+	margin: 5px;
+	text-align: left;
+}
+
+.formInscriptionConnexion input[type=email]{
+	margin: 5px;
+/*	width: 210px;*/ width:130px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	color: #3498db;
+}
+
+.formInscriptionConnexion input[type=submit]{
+/*	margin: 5px;
+	margin-top: 15px;
+	width: 120px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e74c3c;*/
+	width: 130px;
+	padding:6px 0 6px 0;
+	background:#f5f5f5;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	
+	text-align:center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+.formInscriptionConnexion input[type=submit]:hover{
+	width: 130px;
+	padding:6px 0 6px 0;
+	background:#eee;
+	color:#555;
+	border-radius:2px;
+	width:100px;
+	border:1px solid #ccc;
+	
+	text-align:center;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+/* ------------------------------------------------- */
+/* Formulaire affichage informations membre*/
+
+.informationsMembre{
+	color: white;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100px;
+	margin-top: 8px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.informationsMembre fieldset{
+	border: 1px white solid;
+	color: #eee;
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.informationsMembre h1{
+	color:white;
+	text-align: center;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
+.informationsMembre input[type=text], .informationsMembre input[type=password]{
+	margin: 5px;
+	width: 130px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	color: #3498db;
+}
+
+.informationsMembre input[type=email]{
+	margin: 5px;
+	width: 210px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	border: none;
+	color: #3498db;
+}
+
+.informationsMembre input[type=submit]{
+	margin: 5px;
+	margin-top: 15px;
+	width: 120px;
+	height: 30px;
+	border-radius: 4px;
+	text-align: center;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	color: #e74c3c;
+}
+
+.informationsMembre input[type=submit]:hover{
+	border: 1px solid #e74c3c;
+}

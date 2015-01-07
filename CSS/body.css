@@ -1,0 +1,15 @@
+﻿/*Fichier CSS du body*/
+/*Contenu non récurent*/
+body{
+	/*background-color: #088389;*/
+	background-color:  #eeeeee;
+	background-image: url(../../ProjetS3/Images/background.png);
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    font-family: Arial;
+}
