@@ -1,0 +1,139 @@
+/*Fichier CSS des formes*/
+
+/* width = largeur, height = hauteur */
+
+.image-carre{
+	height: 157px;
+	width: 157px;
+}
+.rectoCarre, .versoCarre{
+	width: 157px;
+	height: 157px;;
+	border:1px white solid;
+	color:white;
+	position:absolute;
+	transition: all 0.4s ease-in;
+	backface-visibility: hidden;
+}
+/*Animations*/
+.image-carre:hover .rectoCarre, .image-carre.flip .rectoCarre{
+  transform: rotateY(180deg);
+}
+.image-carre:hover .versoCarre, .image-carre.flip .versoCarre{
+  transform: rotateY(0deg);
+}
+.image-carre .versoCarre{
+  transform: rotateY(-180deg);
+}
+
+
+.image-rectangle{
+	height: 157px;
+	width: 325px;
+}
+.rectoRectangle, .versoRectangle{
+	width: 325px;
+	height: 157px;
+	border:1px white solid;
+	color:white;
+	position:absolute;
+	transition: all 0.4s ease-in;
+	backface-visibility: hidden;
+}
+.image-rectangle:hover .rectoRectangle, .image-rectangle.flip .rectoRectangle{
+	transform: rotateY(180deg);
+}
+.image-rectangle:hover .versoRectangle, .image-rectangle.flip .rectoRectangle{
+	transform: rotateY(0deg);
+}
+.image-rectangle .versoRectangle{
+	transform: rotatey(-180deg);
+}
+
+
+.avatar{ /* S'occuper de la resize pour la version mobile etc ...*/
+	height: 55px;
+	width: 55px;
+	border:1px white solid;
+}
+
+
+.lien-carre{
+	height: 157px;
+	width: 157px;
+	border:1px white solid;
+}
+
+
+.lien-rectangle{
+	height: 157px;
+	width: 325px;
+	border:1px white solid;
+}
+
+
+.foot-rectangle{
+	height: 170px; /*grand ?*/
+	width: 100%;
+	border:1px white solid;
+}
+
+
+.texte{
+	/*margin-left: 10px;*/
+/*	color:white;*/
+	min-height: 100px;
+	/*max-height: 600px;*/
+	/*width: 200px;*/
+	margin-top: 8px;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+	/*word-wrap:break-word;*/
+	/*padding-left: 5px;
+	padding-right: 2px;
+	padding-bottom: 5px;*/
+}
+.texte h1{
+	color:white;
+	text-align: center;
+	font-size: 17px;
+	text-decoration: underline;
+}
+.texte p{
+	color: white;
+	word-wrap:break-word;
+	padding:3px;
+	font-size:15px;
+	font-style: italic;
+	text-align:center;
+}
+
+
+
+/* ----------------------------------------------------- */
+/* Fonctionnement du carré image:
+
+<div class="image-carre">
+	<div class="rectoCarre">
+		<img src="#">
+	</div>
+	<div class="versoCarre" id="bleu-fonce">
+		
+	</div>
+</div>
+
+
+Fonctionnement du rectangle image:
+
+<div class="image-rectangle">
+	<div class="rectoRectangle">
+		<img >
+	</div>
+	<div class="versoRectangle" id="vert-fonce">
+		Ceci est une image lambda
+	</div>
+</div>
+
+*/

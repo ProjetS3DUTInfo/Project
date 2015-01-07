@@ -1,0 +1,8 @@
+/*Fichier CSS pour styliser les différentes balises*/
+
+/* Donner à une image sa taille maximale en fonction du container
+qui la contient*/
+img{
+	max-width: 100%;
+    max-height: 100%;
+}

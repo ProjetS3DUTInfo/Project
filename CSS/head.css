@@ -1,0 +1,47 @@
+/*Fichier CSS du head*/
+/*Contenu récurent*/
+
+
+.menuHorizontal{
+    text-align: center;
+}
+.menuHorizontal a{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    width: 180px;
+    /*margin: 0.5em;*/
+    margin: 0.1em;
+    padding: 0.7em 1.1em;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.3);
+    color: #536583;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: 1;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+.menuHorizontal a:hover,.menuHorizontal a.current-demo,.menuHorizontal a.current-demo:hover{
+    border-color: #536583;
+    color: rgba(0,0,3);
+}
+
+.banniere{
+    width: 100%;
+    background-color: transparent;
+    margin: 0;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.position_logo_sponsor{
+    max-height: 115px;
+    max-width: 157px;
+    display:inline;
+}
+img.position_logo_projet{
+    max-height: 115px;
+    max-width: 157px;
+    display:inline;
+
+}
